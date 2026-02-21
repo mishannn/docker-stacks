@@ -1,0 +1,15 @@
+syncthing.codebin.ru {
+	reverse_proxy localhost:8384
+}
+
+t.codebin.ru {
+	reverse_proxy localhost:2053
+}
+
+gate1.codebin.ru {
+	reverse_proxy localhost:32001
+}
+
+gate2.codebin.ru { 
+        reverse_proxy localhost:32002
+}
