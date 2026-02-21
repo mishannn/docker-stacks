@@ -1,0 +1,8 @@
+services:
+  rsstt:
+    image: rongronggg9/rss-to-telegram:dev
+    container_name: rsstt
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./app-config:/app/config
